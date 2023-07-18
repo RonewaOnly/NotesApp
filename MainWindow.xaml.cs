@@ -54,7 +54,7 @@ namespace NotesApp
 				NoteSaved.Items.Add(i.noteDescription);
 				NoteSaved.Items.Add(dateTime);
 			}
-			noted.Clear();
+			noted.Clear();//this makes sure that no older information is display again
 			//NoteSaved.Items.Add(noted);
 		}
 	}

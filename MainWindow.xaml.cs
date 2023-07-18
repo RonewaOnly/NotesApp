@@ -46,7 +46,7 @@ namespace NotesApp
 			title = NoteTitle.Text;
 			comments = CommentFill.Text;
 			noted.Add(new NoteTaken(title, comments));
-			DateTime dateTime = DateTime.Now;
+			DateTime dateTime = DateTime.Now;//Shows the current date and time
 
 			foreach (var i in noted)
 			{
